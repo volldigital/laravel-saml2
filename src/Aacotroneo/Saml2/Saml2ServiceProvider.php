@@ -27,7 +27,7 @@ class Saml2ServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/../../config/saml2_settings.php' => config_path('saml2_settings.php'),
-            __DIR__.'/../../config/test_idp_settings.php' => config_path('saml2'.DIRECTORY_SEPARATOR.'test_idp_settings.php'),
+            __DIR__.'/../../config/mytestidp1_idp_settings.php' => config_path('saml2'.DIRECTORY_SEPARATOR.'test_idp_settings.php'),
         ]);
 
         if (config('saml2_settings.proxyVars', false)) {
